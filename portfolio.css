@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Roboto+Slab&display=swap');
+*{
+    margin: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 156, 183);
+    justify-content: flex-end;
+    gap: 20px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+header a:not(:last-child){
+    color:aliceblue;
+    text-decoration: none;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 25px;
+    cursor: grab;   
+}
+
+header a:hover:not(:last-child){
+    color: rgb(58, 255, 252);
+    font-size: 20px;
+}
+header a:hover(:last-child){
+    font-size: 25px;
+}
+header a:last-child{
+    height: 30px;
+    width: fit-content;
+    background-color: rgb(0, 109, 128);
+    border-radius:10px ;
+    padding: 7px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(142, 238, 255);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction:column ;
+}
+.home h1{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 40px;
+
+}
+
+.home h3 span{
+    letter-spacing: 5px;
+    background-image: linear-gradient(rgb(29, 89, 98),black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position-y: 10px;
+    background-size: cover;
+    font-size: 80px;
+}
+.home h3{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+}
+.home p{
+    font-size: 50px;
+    font-family: 'Tilt Neon', sans-serif;
+    font-weight: bolder;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(149, 211, 255);
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction:column ;
+}
+.about p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(0, 53, 84);
+    
+}
+.about h3{
+    font-family: 'Roboto Slab', serif;
+    
+    margin-top: 0%;
+    position: relative;
+    bottom: 100px;
+}
+.skill{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(85, 184, 255);
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction:column ;
+    
+}
+.skill h3{
+    font-family: 'Roboto Slab', serif;
+    padding-top: 0px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    
+}
+.skill img{
+    height : 80px;
+    width: 90px;
+    position: relative;
+    top: 20px;
+}
+.skill p{
+    font-family: 'Kanit', sans-serif;
+    color: rgb(0, 53, 84)
+}
+
+.project{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0,149,255);
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+}
+.project h3{
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 100px;
+}
+.project p{
+    font-family: 'Kanit', sans-serif;
+    padding-top: 70px;
+    color: rgb(0, 53, 84)
+}
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(76, 158, 216);
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+}
+.contact h3{
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+.contact img{
+    height: 100px;
+    width: 100px;
+}
+.contact span{
+    color: rgb(0, 53, 84);
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(2, 202, 2);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
